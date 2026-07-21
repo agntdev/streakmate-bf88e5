@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Weekly Summary",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Request compact weekly progress report"
+            }
+          }
+        ],
+        "send": {
+          "callback": "summary:weekly"
+        }
+      }
+    ]
+  }
+]
